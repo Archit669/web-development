@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORMS</title>
+  </head>
+  <body>
+    <h1>HTML FORMS</h1>
+    <form action="07_HTML_images.html" method="GET">
+      <label for="username">username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="username"
+      /><br /><br />
+
+      <label for="password">password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="password"
+      /><br /><br />
+
+      <label for="email">email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="email"
+      /><br /><br />
+
+      <p>Select your gender</p>
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="male" value="male" /><br /><br />
+
+      <label for="female">female</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      /><br /><br />
+
+      <label for="other">other</label>
+      <input type="radio" name="gender" id="other" value="other" /><br /><br />
+
+      <label for="age-group">Select your age-group</label>
+      <select name="age group values" id="age-group">
+        <option value="5-10">5-10</option>
+        <option value="10-18">10-18</option>
+        <option value="18-25">18-25</option>
+        <option value="25-50">25-50</option>
+        <option value="50-75">50-75</option> </select
+      ><br /><br />
+
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Type here"
+        name="textarea"
+      ></textarea
+      ><br /><br />
+      pick colour: <input type="color" name="colour" /><br /><br />
+      date: <input type="date" name="date" /><br /><br />
+      file: <input type="file" name="file" /><br /><br />
+      <input type="submit" value="sign in" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,500 @@
+<!-- this is html tutorial for learn complete html -->
+<!--HTML is hyper text markup language used to create web pages.-->
+
+
+
+
+
+
+<!-- html structure -->
+<!-- press ! and then press enter so the complete html structure is generate automatically.-->
+<!-- this is done by emmet which is extension in vs code. -->
+
+<!--this is the line use to tell browser that it is html 5 -->
+
+<!DOCTYPE html>
+<!-- this is html tag in which html code will be written and here lang is the attribute used to choose language.-->
+<html lang="en">
+
+
+
+  <!-- this is head tag in which meta tags and css is used. -->
+  <head>
+         
+
+
+    <!-- html title and meta tags -->
+    <!-- these are meta tags which are very useful in search engine optimization -->
+
+    <meta charset="UTF-8" />             <!-- tell us we use character set as UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta name="author" content="Archit jain.">
+    <meta name="description" content="this is meta tag tutorial">      <!--this is description for website.-->
+    <meta name= "keywords" content="html, html tutorial, meta tags, paragraph tag">  <!--these are keywords which are helpful in finding the webpage.-->
+
+
+
+    <!-- this is title tag in which title is mentioned of web page. -->
+    <title>html complete tutorial</title> 
+
+
+
+
+
+    <!-- this is css coding -->
+
+
+    <!-- css for id and objects -->
+
+     <!-- # is used for id -->  
+     <!-- .(dot) is used to represent classes -->
+
+    <style>
+      #heading1 {                            
+        color: red;
+      }
+      .lines {                               
+        color: orange;
+      }
+      .heading2 {
+        color: green;
+      }
+    </style>
+
+
+
+
+    <!-- css for div and span tags -->
+
+    <style>
+      .container1 {
+        background-color: orange;
+        color: black;
+      }
+      .cls1 {
+        background-color: yellow;
+        color: white;
+      }
+    </style>
+
+
+
+  </head>
+  <body>
+
+
+
+
+
+    <!-- HTML heading, paragraph and line break -->
+    <!-- these are heading tags h1 h2 h3 h4 h5 h6.-->
+    <h1>this is heading</h1>
+    <h2>this is heading</h2>
+    <h3>this is heading</h3>
+    <h4>this is heading</h4>
+    <h5>this is heading</h5>
+    <h6>this is heading</h6>
+    <!-- this is paragraph tag -->
+    <p>
+        <!-- this text is generate by lorem -->
+        <!-- write lorem(can specify word limit)  and press enter -->
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius ducimus
+      quisquam, iusto consectetur laborum atque sed?<br>   <!--this is for another line but not recommended.-->
+      Rem soluta officiis excepturi dolor, qui inventore ipsa. Quos quidem
+      eligendi asperiores voluptate eos?
+    </p>
+
+
+
+
+
+
+    <!-- useful extensions -->
+    <p>
+        1. <strong>live server (by ritwik day) :</strong> useful in not to refresh page. right click and open live server.<br>           <!--strong is used to bold the written text, <b> tag do same thing.-->
+        2. <strong>bracket pair collection:</strong> use to give <em>colour to the brackets</em> give visual good effect to code. <br>            <!--em is used to italic the text , <I> tag do same thing.--> 
+        3. <strong>prettier-code-formatter:</strong> used to format code.
+    </p>
+
+
+
+
+
+    <!--HTML Links-->
+    <!-- anchor tag is used to add links in html.-->
+    <a href="http://www.google.com">google</a> <br>         <!--this will generate a link with name of google and will open in same tab-->
+    <a href="http://www.google.com" target="_blank">google in different tab.</a> <br>         <!--to replicate line use alt+ shift + down key and will open in different tab.-->
+    <!--To link self made web page.-->
+    <a href="./01_structure.html" target="_blank">blank page</a> <br>         <!--this will open my html page structure.html which file is in current folder. (. means current folder and / means in).-->
+    <a href="./05_add_links_to_website/pages/05_thank_you.html" target="_blank">thank you</a> <br> <!--this will open my html page which file is in  folder of current folder.-->
+    <a href="../no.html" target="_blank">no file there error</a> <br>            <!--this will open my html page which is in previous folder in which current folder is present. (.. means back).-->
+
+
+
+
+
+    <!--HTML Images -->
+    <img src="https://source.unsplash.com/1600x900/?nature" alt="this is nature image.">
+    <h2>website to download photos in free.</h2>
+    <p>
+      1. <strong>pixels.com</strong><br>
+      2. <strong>unsplash.com</strong> (source.unsplash.com) <br>
+    </p>
+
+    <!--HTML LIST-->
+    <!--we have three types of lists : ordered lists ,unordered lists and description lists.-->
+        <!-- Ordered list -->
+        <ol type='1'>         <!--this is recommended -->
+          <p><strong>HTML LIST</strong></p>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+          <li>item4</li>
+      </ol>
+      <ol type='a'> 
+          <p><strong>HTML LIST</strong></p>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+          <li>item4</li>
+      </ol>
+      <ol type='A'> 
+          <p><strong>HTML LIST</strong></p>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+          <li>item4</li>
+      </ol>
+      <ol type='i'> 
+          <p><strong>HTML LIST</strong></p>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+          <li>item4</li>
+      </ol>
+      <ol type='I'> 
+          <p><strong>HTML LIST</strong></p>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+          <li>item4</li>
+      </ol>
+      
+      <!-- unordered list -->
+      <ul style='list-style-type: disc;'> 
+          <p><strong>HTML LIST</strong></p>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+          <li>item4</li>
+      </ul>
+      <ul style='list-style-type: None;'>    <!--used many times-->
+          <p><strong>HTML LIST</strong></p>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+          <li>item4</li>
+      </ul>
+  
+      <!-- description list -->
+      <dl>
+          <dt>guitar</dt>
+          <dd>guitar is 6 string instrument</dd>
+  
+      </dl>
+      <!-- Ordered list -->
+      <ol type='1'> 
+        <p><strong>HTML LIST</strong></p>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+    <ol type='a'> 
+        <p><strong>HTML LIST</strong></p>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+    <ol type='A'> 
+        <p><strong>HTML LIST</strong></p>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+    <ol type='i'> 
+        <p><strong>HTML LIST</strong></p>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+    <ol type='I'> 
+        <p><strong>HTML LIST</strong></p>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+    
+    <!-- unordered list -->
+    <ul style='list-style-type: disc;'> 
+        <p><strong>HTML LIST</strong></p>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+    <ul style='list-style-type: None;'>    <!--used many times-->
+        <p><strong>HTML LIST</strong></p>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+
+    <!-- description list -->
+    <dl>    <!-- used to give description -->
+        <dt>guitar</dt>
+        <dd>guitar is 6 string instrument</dd>
+
+    </dl>
+
+    
+
+
+
+    
+    <!--HTML Tags for text formatting.-->
+
+    <h2>Html tags for text formatting</h2>
+      <b>software engineer</b> or <strong>software engineer</strong><br>         <!--to bold the text (strong is recommended)-->
+      <I>flask</I> or <em>flask</em><br>         <!--to do italic the text(itlalic is recommended) -->
+      <del>introvert</del><br>                   <!-- to cut the text-->
+      H<sub>2</sub>O<br>                         <!--for subscript -->
+      2<sup>4</sup><br>                          <!--for superscript-->
+      <mark>shy</mark>                           <!-- for highlight the text but not recommended-->
+      <br><br>
+
+
+
+    
+    
+     <!--HTML TABLES -->
+
+     <table border="1">           <!-- this border is recommended -->
+      <thead>                     <!-- this is for main row -->
+        <tr>                      <!-- this is for one row  (table row) -->
+          <th>Name</th>           <!-- this is for table row data (table head) -->
+          <th>class</th>
+          <th>Roll no</th>
+        </tr>
+      </thead>
+      <tbody>                     <!-- this is for multiple rows -->
+        <tr>
+          <td>Archit</td>         <!-- this is for table row data (table data) -->
+          <td>12</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>somil</td>
+          <td>11</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+      
+
+    <!-- HTML forms -->
+
+    <h1>HTML FORMS</h1>
+    <form action="07_HTML_images.html" method="GET">          <!--Action attribute will open the given webpage after submision of form and the method attribute will send data by two methods get and post.--> 
+      <label for="username">username:</label>                  <!--label tag is used to give the label and for attribute is used to match with id of given input -->
+
+      <!-- input tag is used to take input-->
+      <input                                      
+        type="text"                        
+        id="username"
+        name="username"
+        placeholder="username"
+      /><br /><br />                 <!-- type attribute is used for type , id is used to attach with label , name tell us by which it shows in URL or go in back-end and place-holder is used to write in input. -->
+
+      <label for="password">password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="password"
+      /><br /><br />
+
+      <label for="email">email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="email"
+      /><br /><br />
+
+      <!--radio button-->
+
+      <p>Select your gender</p>                   <!--here name of each must be same (gender) -->
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="male" value="male" /><br /><br />
+
+      <label for="female">female</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      /><br /><br />
+
+      <label for="other">other</label>
+      <input type="radio" name="gender" id="other" value="other" /><br /><br />
+
+      <!-- dropdown list -->
+
+      <label for="age-group">Select your age-group</label>
+      <select name="age group values" id="age-group">
+        <option value="5-10">5-10</option>
+        <option value="10-18">10-18</option>
+        <option value="18-25">18-25</option>
+        <option value="25-50">25-50</option>
+        <option value="50-75">50-75</option> </select
+      ><br /><br />
+
+      <!--text area -->
+
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Type here"
+        name="textarea"
+      ></textarea
+      ><br /><br />
+
+      <!-- pick up color -->
+      pick colour: <input type="color" name="colour" /><br /><br />
+
+      <!-- pick up date -->
+      date: <input type="date" name="date" /><br /><br />
+
+      <!-- pick up file -->
+      file: <input type="file" name="file" /><br /><br />
+
+      <!--for submission of form -->
+      <input type="submit" value="sign in" />
+
+    </form>
+
+
+
+
+
+
+
+
+
+   <!--Id and classes -->
+
+   <!-- id and class attribute is used to identify specifically any lines or paragraph to style it using css. -->
+   <!-- class is mainly used for styling purposes -->
+   <!-- class can repeat but id cannot in html code. it is convention of developers.-->
+   
+   <h2 id="heading1">This is Heading</h2>
+
+    <p class="lines">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem
+      delectus sed fuga odio repellat, at labore eaque aliquam voluptas.
+    </p>
+
+    <h2 class="heading2">This is also heading</h2>
+
+    <p class="lines">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam,
+      necessitatibus officia incidunt ut aut eveniet illo mollitia eum? Expedita
+      minus eos aspernatur magnam ullam enim, nam impedit eum voluptas est?
+    </p>
+
+
+
+
+
+
+
+    <!-- div and span tags -->
+    <!-- div tag is used to make the container which can be style using css. -->
+    <!-- span tag is used to style specific words / line / sentences etc. -->
+
+    <div class="container1">
+      <h2>heading</h2>
+      <ul>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+      </ul>
+    </div>
+
+    <div class="container2">
+      <h2>heading <span class="cls1">two</span></h2>
+      <img
+        src="https://source.unsplash.com/1600x900/?nature"
+        alt="this is a nature image"
+      />
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
+        autem, corrupti eveniet vero laudantium ipsum fugit ex incidunt
+        officiis, voluptas amet quibusdam dignissimos, perferendis ratione!
+        Asperiores iure debitis exercitationem natus.
+      </p>
+    </div>
+
+
+
+
+
+
+    <!-- HTML sementic elements -->
+    <!-- sementic elements are useful to make systamatic our work during designing of website. --> 
+    
+    <header></header>
+    <nav></nav>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+
+
+
+
+
+
+    <!-- HTML entities -->
+
+    <h2>HTML ENTITIES</h2>
+
+<p>HTML entities are the entities that are used to print those characters that are not available in keyboard.</p>\
+
+<p>copyright &copy;</p>
+<p>2 &gt; 1</p>
+<p>2 &lt; 5</p>
+<p>&amp;</p>
+<p>my name is &nbsp;archit jain.</p>
+
+
+
+
+
+
+  </body>
+</html>
