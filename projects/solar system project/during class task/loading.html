@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading</title>
+    <style>
+        .center{
+            text-align: center;
+        }
+        .row{
+            margin-left: 660px;
+            display: flex;
+        }
+        .dot{
+            margin: 3px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: red;
+            border: 2px solid black;
+
+        }
+
+        @keyframes animate{
+            from{
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }
+        }
+
+
+        .dot1{
+            animation: animate 2s linear infinite 0.4s;
+        }
+        .dot2{
+            animation: animate 2s linear infinite 0.8s;
+        }
+        .dot3{
+            animation: animate 2s linear infinite 1.2s;
+        }
+        .dot4{
+            animation: animate 2s linear infinite 1.6s;
+        }
+        .dot5{
+            animation: animate 2s linear infinite 2s;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="center">loading ... </h1>
+    <div class="row">
+        <div class="dot dot1"></div>
+        <div class="dot dot2" ></div>
+        <div class="dot dot3"></div>
+        <div class="dot dot4"></div>
+        <div class="dot dot5"></div>
+
+    </div>
+</body>
+</html>

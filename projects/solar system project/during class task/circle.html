@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle</title>
+    <style>
+
+        .center{
+            text-align: center;
+        }
+        .box1{
+            /* margin: 100px; */
+            background: red;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            animation: circle 1s linear infinite;
+            transform: translate(700px,0px);
+
+        }
+
+        @keyframes circle{
+            from{
+                border-radius: 0px;
+            }
+            to{
+                border-radius: 100px;
+            }
+        }
+    </style>
+</head>
+    <h1 class="center">circle animation</h1>
+
+<body>
+    <div class="box1">
+
+    </div>
+</body>
+</html>

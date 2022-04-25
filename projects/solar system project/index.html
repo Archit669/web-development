@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>solar system project</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+      }
+
+      .sun {
+        border-radius: 100px;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 230, 0);
+        position: absolute;
+        top: calc(50% - 100px / 2);
+        left: calc(50% - 100px / 2);
+        animation: sun 1s;
+      }
+
+      .mercury {
+        border-radius: 20px;
+        width: 20px;
+        height: 20px;
+        background-color: #504e51;
+        position: absolute;
+        top: calc(50% - 20px / 2);
+        left: calc(50% - 20px / 2);
+        animation: mercury 1s linear infinite;
+      }
+
+      .venus {
+        border-radius: 30px;
+        width: 30px;
+        height: 30px;
+        background-color: #eed053;
+        position: absolute;
+        top: calc(50% - 30px / 2);
+        left: calc(50% - 30px / 2);
+        animation: venus 2s linear infinite;
+      }
+
+      .earth {
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        background-color: #7f9fbc;
+        position: absolute;
+        top: calc(50% - 40px / 2);
+        left: calc(50% - 40px / 2);
+        animation: earth 3s linear infinite;
+      }
+
+      .mars {
+        border-radius: 30px;
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        position: absolute;
+        top: calc(50% - 30px / 2);
+        left: calc(50% - 30px / 2);
+        animation: mars 3.5s linear infinite;
+      }
+
+      .jupiter {
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: #bcafb2;
+        position: absolute;
+        top: calc(50% - 60px / 2);
+        left: calc(50% - 60px / 2);
+        animation: jupiter 4s linear infinite;
+      }
+
+      .saturn {
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        background-color: #ab604a;
+        position: absolute;
+        top: calc(50% - 50px / 2);
+        left: calc(50% - 50px / 2);
+        animation: saturn 4.5s linear infinite;
+      }
+
+      .uranus {
+        border-radius: 30px;
+        width: 30px;
+        height: 30px;
+        background-color: #4fd0e7;
+        position: absolute;
+        top: calc(50% - 30px / 2);
+        left: calc(50% - 30px / 2);
+        animation: uranus 5s linear infinite;
+      }
+
+      .neptune {
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        background-color: #4b70dd;
+        position: absolute;
+        top: calc(50% - 40px / 2);
+        left: calc(50% - 40px / 2);
+        animation: neptune 5.5s linear infinite;
+      }
+
+      @keyframes mercury {
+        from {
+          transform: rotate(360deg) translateX(90px);
+        }
+        to {
+          transform: rotate(0deg) translateX(90px);
+        }
+      }
+      @keyframes venus {
+        from {
+          transform: rotate(360deg) translateX(130px);
+        }
+        to {
+          transform: rotate(0deg) translateX(130px);
+        }
+      }
+      @keyframes earth {
+        from {
+          transform: rotate(360deg) translateX(169px);
+        }
+        to {
+          transform: rotate(0deg) translateX(169px);
+        }
+      }
+      @keyframes mars {
+        from {
+          transform: rotate(360deg) translateX(210px);
+        }
+        to {
+          transform: rotate(0deg) translateX(210px);
+        }
+      }
+
+      @keyframes jupiter {
+        from {
+          transform: rotate(360deg) translateX(270px);
+        }
+        to {
+          transform: rotate(0deg) translateX(270px);
+        }
+      }
+      @keyframes saturn {
+        from {
+          transform: rotate(360deg) translateX(320px);
+        }
+        to {
+          transform: rotate(0deg) translateX(320px);
+        }
+      }
+
+      @keyframes uranus {
+        from {
+          transform: rotate(360deg) translateX(350px);
+        }
+        to {
+          transform: rotate(0deg) translateX(350px);
+        }
+      }
+      @keyframes neptune {
+        from {
+          transform: rotate(360deg) translateX(400px);
+        }
+        to {
+          transform: rotate(0deg) translateX(400px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="planet sun"></div>
+    <div class="planet mercury"></div>
+    <div class="planet venus"></div>
+    <div class="planet earth"></div>
+    <div class="planet mars"></div>
+    <div class="planet jupiter"></div>
+    <div class="planet saturn"></div>
+    <div class="planet uranus"></div>
+    <div class="planet neptune"></div>
+  </body>
+</html>

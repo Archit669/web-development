@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide-in</title>
+    <style>
+        .ball{
+            background:red;
+            width:50px;
+            height:50px;
+            border: 2px solid black;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+        .slide-in{
+            animation: slide-in 5s linear;
+        }
+
+
+
+        @keyframes slide-in{
+            from{
+                transform: translatex(-500px) rotate(-1800deg);
+            }
+            to{
+                transform: translateX(0) rotate(0deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "ball"></div>
+    <hr>
+    <div class = "ball slide-in"><p style="margin: 5px 30px">a</p></div>
+</body>
+</html>

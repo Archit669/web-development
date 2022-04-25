@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spinner</title>
+    <style>
+
+        .center{
+            text-align: center;
+        }
+
+
+        .box2{
+            margin-left: 700px;
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            border-top: 2px solid white;
+            border-radius: 50%;
+            animation: loading 1s linear infinite;
+        }
+
+        @keyframes loading{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="center">loading .....</h1>
+    <div class="box2">
+          
+    </div>
+</body>
+</html>
