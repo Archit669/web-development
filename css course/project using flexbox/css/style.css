@@ -186,6 +186,223 @@ body{
 }
 
 
+/* ##################### food menu styling ####################### */
+
+.food-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.food-menu-content{
+    max-width: 1200px;
+    width: 1200px;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.food-menu-content h1{
+    font-size: xx-large;
+}
+
+.menu-showcase{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.menu-showcase .menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.menu-showcase .menu .img{
+    height: 160px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+.menu-showcase .menu1 .img{
+    background: url("/img/food-menu1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-showcase .menu2 .img{
+    background: url("/img/food-menu2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-showcase .menu3 .img{
+    background: url("/img/food-menu3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-showcase .menu4 .img{
+    background: url("/img/food-menu4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-showcase .menu5 .img{
+    background: url("/img/food-menu5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-showcase .menu6 .img{
+    background: url("/img/food-menu6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ########################## testimonial styling ############################## */
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+    background-color: #fbf6f6;
+}
+
+.testimonial-content{
+    height: 57vh;
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-showcase{
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.testimonial-showcase .testimonial{
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.testimonial p{
+    text-align: center;
+}
+
+.testimonial-showcase .testimonial .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.testimonial-showcase .testimonial .person1 .img{
+    background: url("/img/male-photo1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testimonial-showcase .testimonial .person2 .img{
+    background: url("/img/male-photo2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testimonial-showcase .testimonial .person3 .img{
+    background: url("/img/male-photo3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ######################### contact styling ##################### */
+
+.contact{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+
+}
+
+.contact-content{
+    width: 1200px;
+    max-width: 1200px;
+    display: flex;
+    height: 60vh;
+}
+
+.contact .img{
+    width: 50%;
+    background: url(/img/restraunt-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-content .form{
+    background-color: white;
+    width: 50%;
+    padding: 15px;
+}
+
+.contact-content .form h1{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.contact-content .form input{
+    display: block;
+    width: 100%;
+    height: 10%;
+    border: 0px solid;
+    border-bottom: 1px solid black;
+    padding: 12px;
+}
+
+.contact-content .form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+    border: 0px solid;
+    border-bottom: 1px solid black;
+    padding: 12px;
+}
+
+.contact-content .form .btn{
+    background-color: darkgreen;
+}
+
+.contact-content .form .btn:hover{
+    background-color: green;
+}
+
+/* ######################### footer styling ################## */
+
+.footer{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 
