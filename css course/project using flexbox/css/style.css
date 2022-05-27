@@ -45,9 +45,12 @@ body{
     display: flex;
     justify-content: center;
     height: 8vh;
-    /* background-color: rgb(243, 240, 232); */
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.878), rgb(247, 244, 244));
-
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
 }
 
 .header .nav-items{
