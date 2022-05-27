@@ -1,0 +1,46 @@
+.box-wrapper{
+    border: 2px solid black;
+    height: 800px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap;        */
+    /*content will go towards cross axis  */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */ 
+    /* in justify content items align towards main axis , but in align items content flow towards cross axis */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* shorthand for two properties flex-direction and flex-wrap */
+    flex-flow: column wrap; 
+    
+}
+
+.box{
+    border: 1px solid brown;
+}
+
+.box1{
+    background-color: aliceblue;
+}
+.box2{
+    background-color: antiquewhite;
+}
+.box3{
+    background-color: aqua;
+}
+.box4{
+    background-color: blanchedalmond;
+}
+.box5{
+    background-color: chartreuse;
+}
